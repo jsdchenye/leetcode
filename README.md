@@ -1,6 +1,9 @@
 # leetcode
 
 ## :bookmark_tabs: 文档
+> 2019.05.21 23:18
+- [538] - Convert BST to Greater Tre(https://leetcode.com/problems/convert-bst-to-greater-tree/)
+
 > 2019.05.20 23:49
 - [1017] - Convert to Base -2(https://leetcode.com/problems/convert-to-base-2/)
 
