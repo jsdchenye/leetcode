@@ -36,6 +36,7 @@ Note:
  * @param {number} K
  * @return {number}
  */
+// javascript
 var minKBitFlips = function(A, K) {
   if (K === 1) return A.filter(item => item === 0).length;
   let sum = 0;
@@ -59,3 +60,23 @@ var minKBitFlips = function(A, K) {
   cal(A, K);
   return sum;
 };
+// python 可借鉴
+/*
+class Solution {
+  public:
+    int minKBitFlips(vector<int>& A, int K) {
+        int ans=0;
+        for(int i=0;i<=A.size()-K;i++){
+            if(A[i]==1)continue;
+            ans++;
+            for(int j=0;j<K;j++){
+                A[i+j]^=1;
+            }
+            
+        }
+        for(int i=A.size()-K+1;i<A.size();i++)
+            if(A[i]==0)return -1;
+        return ans;
+    }
+};
+*/
