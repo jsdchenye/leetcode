@@ -1,6 +1,9 @@
 # leetcode
 
 ## :bookmark_tabs: 文档
+> 2019.05.22 23:50
+- [995] - Minimum Number of K Consecutive Bit Flips (https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)
+
 > 2019.05.21 23:18
 - [538] - Convert BST to Greater Tre(https://leetcode.com/problems/convert-bst-to-greater-tree/)
 
